@@ -9,7 +9,7 @@ class Home extends React.PureComponent {
         this.state={};
     }
     componentDidMount(){
-        fetch(`https://newsapi.org/v2/everything?q=bitcoin&from=2019-11-04&sortBy=publishedAt&apiKey=a2a391168f444629b011ab5607de01e7`)
+        fetch(`https://newsapi.org/v2/everything?q=bitcoin&from=2019-11-06&sortBy=publishedAt&apiKey=a2a391168f444629b011ab5607de01e7`)
         .then(response => response.json())
         .then(data=> !isEmpty(data) && this.setState({data:data.articles}))
         .catch(error => console.log(error))
