@@ -2,7 +2,9 @@
 
 1. In test folder run ‘npm install’ command.
 2. In  React-Display-List-master run the following commands
-a. cordova platform add windows
+    a. cordova platform add windows
+
+a. 
     b. cordova build
     c. cordova prepare
 3. In case of app, run React-Display-List-master\platforms\windows\CordovaApp.sln in emulator(VS 2017)
