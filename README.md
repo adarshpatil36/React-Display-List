@@ -1,6 +1,6 @@
 # React-Display-List
 
-Pre-requisite: Visual Studio 2017, Node
+Pre-requisite: Visual Studio 2017, Node, Cordova
 
 1. In test folder run ‘npm install’ command.
 2. In  React-Display-List-master run the following commands <br />
