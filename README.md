@@ -1,5 +1,7 @@
 # React-Display-List
 
+A hybrid project of react and cordova displaying list of data from an API
+
 Pre-requisite: Visual Studio 2017, Node, Cordova
 
 1. In test folder run ‘npm install’ command.
