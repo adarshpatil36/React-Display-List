@@ -18,3 +18,5 @@ In case of this error
  No valid MSBuild was detected for the selected target: AppPackages folder doesn't exist' 
  Visit 'https://visualstudio.microsoft.com/downloads/' and download 'Build Tools for Visual Studio 2019'
  under 'Tools for Visual Studio 2019' section
+1. In case of Enterprise Version set Environmental Variable as MSBUILDDIR = C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\Bin
+2. In case of Community Version set Environmental Variable as MSBUILDDIR = C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin
